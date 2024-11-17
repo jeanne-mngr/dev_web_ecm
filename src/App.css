@@ -1,0 +1,82 @@
+* {
+  margin-top: 3px;
+  background-color: #bec9a2;
+  box-sizing: border-box;
+}
+
+input {
+  width: 70%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+label {
+  color: #dba343;
+}
+
+button {
+  width: 120px ;
+  background-color: #dba343;
+  border-radius: 15px;
+}
+
+.button-card {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-evenly ;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align:center;
+}
+
+.taskCard {
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  align-items: center;
+  background-color: #69a0ac;
+  display: flex ;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 7px 5px 5px #163544;
+}
+
+.taskCard div {
+  border-radius: 20px;
+  background-color: #69a0ac;
+}
+
+.addTask {
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  background-color: #163544;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.addTask div, label {
+  background-color: #163544;
+  text-decoration-color: aliceblue;
+}
+
+.grid {
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.titre {
+  display: flex ;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-size: large;
+  background-color: #69a0ac;
+  justify-content: space-between;
+}
+
